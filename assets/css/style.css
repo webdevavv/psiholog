@@ -31,6 +31,7 @@ body{
 .header__logo{
   display: flex;
   flex-direction: column;
+  color: #000;
 }
 .header__logo > span:first-child{
   font-weight: 400;
@@ -54,6 +55,8 @@ body{
 .header__contact{
   display: flex;
   flex-direction: column;
+  gap: 5px;
+
 }
 .header__contact > a{
   color: #000;
