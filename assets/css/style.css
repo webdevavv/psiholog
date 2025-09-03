@@ -47,7 +47,25 @@ body{
   display: flex;
   gap: 50px;
 }
+.header__nav > ul > li {
+  position: relative;
+  padding-bottom: 5px;
+}
+.header__nav > ul > li::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+.header__nav > ul > li:hover::after{
+  width: 100%;
+}
 .header__nav > ul > li > a{
+
   color: #000;
   font-weight: 300;
   font-size: 16px;
