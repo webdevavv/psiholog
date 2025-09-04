@@ -343,6 +343,15 @@ body{
 
 /* video */
 
+/* about_us */
+
+.about_us h2{
+  font-size: 48px;
+  font-weight: 300;
+}
+
+/* about_us */
+
 /* footer */
 
 .footer{
